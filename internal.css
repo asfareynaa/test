@@ -1,0 +1,171 @@
+#image {
+  padding: 10px;
+  width: 150px;
+  margin-left: 400px;
+}
+#logoname {
+color: rgb(255,95,17);
+font-family: Forte;
+  font-size: 35px;
+  text-decoration: underline dotted red;
+  float: right;
+  margin-right: 400px;
+  margin-top: 50px;
+  }
+ #navbar{
+  width: 750px;
+  margin-top: 20px;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #6669;
+  
+}
+li {
+  float: left;
+  width: 148px;
+}
+li a {
+font-family: Bahnschrift SemiLight;
+  display: block;
+  font-size: 20px;
+  color: cyan;
+  text-align: block;
+  padding: 15px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+a:visited {
+  color: rgb(255,79,121);
+}
+.mySlides{
+width:900px;
+height: 400px;
+margin-top: 30px;
+margin-bottom:30px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 210 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #565656;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.what{
+font size: 65px;
+font-family: Jokerman;
+font-size: 30px;
+  display: block;
+  color: orange;
+  text-align: hidden;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.newitem{
+width:300px;
+height: 200px;
+margin-left:100px;
+}
+.news{
+font size: 65px;
+font-family: Sitka Small;
+font-size: 20px;
+  display: block;
+  color: white;
+  text-align: hidden;
+  text-decoration: none;
+  margin-left: 100px;
+}
+.collapsible {
+  background-color: gray;
+  color: cyan;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin-left: 310px;
+  
+}
+.active, .collapsible:hover {
+  background-color: blue;
+}
+.content {
+text-align: center;
+  display: none;
+  overflow: hidden;
+  background-color: yellow;
+  width: 400px;
+    position: static;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+#more{
+font-family: monospace;
+  display: block;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+  width: 300px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.container:hover.image {
+  background-color: pink;
+}
+.container:hover .middle {
+  opacity: 50;
+}
+.text {
+font-family: Kristen ITC;
+  background-color: maroon;
+  color: yellow;
+  font-size: 10px;
+  padding: 15px;
+}
